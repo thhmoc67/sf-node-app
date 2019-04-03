@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha test",
-    "push": "git remote set-url origin git@gitlab.com:thhmoc67/micro-node-express.git & git push & git remote set-url origin git@github.com:thhmoc67/micro-node-express.git & git push "
+    "test": "mocha test"
   },
   "dependencies": {
     "aws-sdk": "^2.417.0",
