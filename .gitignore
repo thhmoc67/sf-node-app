@@ -55,7 +55,9 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+*.env
+*.env.local
 
 # next.js build output
 .next
+package-lock.json
