@@ -1,0 +1,17 @@
+branch-defaults:
+  production:
+    environment: production-node
+  # (optional) Other branch-specific settings 
+  # (e.g. if you want a staging environment)
+  master:
+    environment: production-node
+global:
+  application_name: micro-node-app-demo
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-east-1::platform/Docker running on 64bit Amazon Linux/2.12.9
+  default_region: us-east-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git

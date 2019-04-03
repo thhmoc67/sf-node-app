@@ -1,0 +1,25 @@
+{
+  "name": "micro-node-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha test",
+    "push": "git remote set-url origin git@gitlab.com:thhmoc67/micro-node-express.git & git push & git remote set-url origin git@github.com:thhmoc67/micro-node-express.git & git push "
+  },
+  "dependencies": {
+    "aws-sdk": "^2.417.0",
+    "cookie-parser": "~1.4.3",
+    "custom-env": "^1.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mocha": "^6.0.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "twilio": "^3.29.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
