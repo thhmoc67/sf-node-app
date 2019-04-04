@@ -15,7 +15,7 @@ router.get('/db', (req, res) => {
   client.connect()
   // console.log(client)
   client
-    .query('select account from sfdemo.account;')
+    .query('select * from sfdemo.order;')
     .then(dbRes => {
       console.log(dbRes)
       client.end()
